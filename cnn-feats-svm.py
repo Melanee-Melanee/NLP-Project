@@ -5,6 +5,7 @@ from numpy import loadtxt
 import numpy as np
 import pickle
 import utils
+import time
 
 # Performs SVM classification on features extracted from penultimate layer of CNN model.
 
