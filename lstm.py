@@ -7,7 +7,7 @@ from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau
 from keras.layers import LSTM
 import utils
 from keras.preprocessing.sequence import pad_sequences
-
+import time
 # Performs classification using LSTM network.
 
 FREQ_DIST_FILE = '../train-processed-freqdist.pkl'

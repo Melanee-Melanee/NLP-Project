@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 from scipy.sparse import lil_matrix
 from sklearn.feature_extraction.text import TfidfTransformer
+import time
 
 # Performs classification using Decision Tree.
 

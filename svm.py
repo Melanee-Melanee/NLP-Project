@@ -4,6 +4,7 @@ import random
 import numpy as np
 from scipy.sparse import lil_matrix
 from sklearn.feature_extraction.text import TfidfTransformer
+import time
 
 # Performs classification using SVM.
 

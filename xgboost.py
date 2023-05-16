@@ -4,6 +4,7 @@ import numpy as np
 from xgboost import XGBClassifier
 from scipy.sparse import lil_matrix
 from sklearn.feature_extraction.text import TfidfTransformer
+import time
 
 # Performs classification using XGBoost.
 

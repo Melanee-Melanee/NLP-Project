@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.naive_bayes import MultinomialNB
 from scipy.sparse import lil_matrix
 from sklearn.feature_extraction.text import TfidfTransformer
+import time
 
 # Performs classification using Naive Bayes.
 

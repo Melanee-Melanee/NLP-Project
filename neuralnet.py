@@ -4,6 +4,7 @@ import sys
 import utils
 import random
 import numpy as np
+import time
 
 # Performs classification using an MLP/1-hidden-layer NN.
 
