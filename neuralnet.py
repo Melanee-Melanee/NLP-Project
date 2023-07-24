@@ -5,7 +5,7 @@ import utils
 import random
 import numpy as np
 import time
-
+# import
 # Performs classification using an MLP/1-hidden-layer NN.
 
 FREQ_DIST_FILE = '../train-processed-freqdist.pkl'
